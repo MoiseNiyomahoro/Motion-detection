@@ -20,9 +20,9 @@ void loop() {
     digitalWrite(red_led, HIGH);
     digitalWrite(green_led, LOW);
     lcd.setCursor(0,0);
-    lcd.print("Umuntu");
+    lcd.print("motion ");
     lcd.setCursor(0,1);
-    lcd.print("aciyeho");
+    lcd.print("detected");
     digitalWrite(buzzer, HIGH);
     delay(1000);
     lcd.clear();
@@ -33,9 +33,9 @@ void loop() {
   else{
     digitalWrite(green_led, HIGH);
     digitalWrite(red_led, LOW);
-    lcd.print("ntamuntu");
+    lcd.print("no motion");
     lcd.setCursor(0, 1);
-    lcd.print("uciyeho");
+    lcd.print("detected");
     digitalWrite(buzzer, 0);
     delay(1000);
     lcd.clear();
