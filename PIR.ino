@@ -1,9 +1,8 @@
-#include <LiquidCrystal_I2C.h>
-LiquidCrystal_I2C lcd(0x27, 16, 2);
+#include <LiquidCrystal.h>
+LiquidCrystal_I2C lcd(12,11,5,4,3,2);
 int sensor = 7;
-int red_led = 12;
-int sensorstate = 0;
-int green_led=13;
+int red_led = 13;
+int green_led=6;
 int buzzer = 8;
 void setup() {
   pinMode(sensor, INPUT);
