@@ -23,7 +23,7 @@ When no motion is detected:
 When motion is detected:
 🔴 Red LED ON, 🔊 buzzer ON, LCD shows “Motion Detected!”
 
-📸 Screenshots
+
 <img width="1147" height="750" alt="image" src="https://github.com/user-attachments/assets/7bce1b52-c525-4b48-814a-ad0ce968b71d" />
 
 📝 Conclusion
